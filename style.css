@@ -1047,7 +1047,11 @@ em {
 }
 
 .citation{
-    border: 2px solid rgb(0, 0, 30);
-    border-radius: 2px;
+    border: 1px solid #575757;
+    border-radius: 5px;
     padding: 10px;
+}
+
+.citation a{
+    text-decoration: underline;
 }
