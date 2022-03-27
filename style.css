@@ -1040,3 +1040,14 @@ h4 {
         text-align: center;
     }
 }
+/*Ajouts règles css*/
+em {
+    font-weight: 550;
+    font-style:normal;
+}
+
+.citation{
+    border: 2px solid rgb(0, 0, 30);
+    border-radius: 2px;
+    padding: 10px;
+}
