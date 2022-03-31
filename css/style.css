@@ -677,7 +677,12 @@ p {
 }
 
 .tight-width-whitespace {
+    max-width: 600px;
     margin: auto auto auto auto;
+}
+
+.container {
+    max-width: 1000px;
 }
 
 .h1 {
@@ -695,7 +700,6 @@ p {
 }
 
 .social {
-    max-width: 400px;
     margin: auto auto auto auto;
 }
 
