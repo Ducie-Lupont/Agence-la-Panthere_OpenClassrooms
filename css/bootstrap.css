@@ -1435,6 +1435,7 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
+    max-width: 100%;
     display: block;
     height: auto
 }
@@ -2007,11 +2008,6 @@ pre code {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto
-}
-
-.row {
-    margin-right: -15px;
-    margin-left: -15px
 }
 
 .col-lg-1,
@@ -5254,6 +5250,10 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 @media (max-width:767px) {
+    .img-responsive{
+        width: 100%;
+    }
+
     .navbar-nav .open .dropdown-menu {
         position: static;
         float: none;
